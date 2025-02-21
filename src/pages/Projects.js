@@ -18,7 +18,7 @@ const Projects = () => (
         </div>
       </header>
       {data.map((project) => (
-        <Cell data={project} key={project.title} />
+        <Cell data={project} key={project.date} />
       ))}
     </article>
   </Main>
